@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perfil.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h1> Carousel de perfiles</h1>
+        <div class="contenedor">
+            
+            <div class="tarjeta">
+                
+                <img src="" id="imagen">
+                <h2 id="nombre">placeholder name</h2>
+                <h4 id="titulo">placeholder title</h4>
+                <p id="texto">placeholder text</p>
+                
+            </div>
+            
+        </div>
+        <div class="contenedor-botones">
+        <button id="atras" class="btn">atras</button>
+                <button id="avanzar" class="btn">avanzar</button>
+            </div>
+        <div class="entrada">
+            <h3>Quieres agregar tu perfil?</h3>
+            <form class="formulario">
+                <div class="form-item">
+                    <label>Tu foto de perfil(solo se aceptan enlaces que terminen en .jpg, .jpeg .png, y .gif):</label>
+                    <input id="addImagen" type="text" required>
+                </div>
+                <div class="form-item">
+                    <label>Tu nombre: </label>
+                <input id="addNombre" type="text" required>
+                </div>
+                <div class="form-item">
+                    <label for="">Tu titulo: </label>
+                <input id="addTitulo" type="text" required>
+                </div>
+                <div class="form-item">
+                    <label for="">Tu descripcion: </label>
+                <textarea id="addDesc" required></textarea>
+                </div>
+                <div class="contenedor-botones">
+                    <button type="button" id="submit" class="form-item btn">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>   
+<script src="perfil.js"></script>
+</body>
+</html>
